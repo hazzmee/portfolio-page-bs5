@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dasar 2024 - Belajar Bootstrap</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="icons/font/bootstrap-icons.min.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg shadow-sm bg-danger navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hazzmee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto text-center">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#services">Layanan</a>
+          <a class="nav-link" href="#project">Projek</a>
+          <a class="nav-link" href="#about">Tentang</a>
+          <a class="nav-link" href="#contact">Kontak</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End of NAVBAR -->
+
+  <!-- HERO -->
+  <section class="section-hero section-padding">
+    <div class="container text-center">
+      <img
+        src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fwww.gravatar.com%2Favatar%2F2c7d99fe281ecd3bcd65ab915bac6dd5%3Fs%3D250"
+        alt="profile picture" class="img-fluid img-thumbnail rounded-circle" width="360">
+      <h1>Asep Surasep</h1>
+      <p class="lead">Web Developer | Desainer Grafis</p>
+    </div>
+  </section>
+  <!-- End of HERO -->
+
+  <!-- LAYANAN -->
+  <section id="services" class="section-layanan section-padding bg-body-tertiary">
+    <div class="container">
+      <h2 class="text-center section-title mb-5">Layanan</h2>
+      <div class="row mx-3 justify-content-center gap-3">
+        <div class="col-lg bg-white px-3 py-4 rounded shadow">
+          <div class="hstack gap-3 align-items-center mb-2">
+            <i class="bi bi-globe2 service-icon"></i>
+            <h4 class="mb-0">Web Development</h4>
+          </div>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tenetur nam illum!</p>
+        </div>
+        <div class="col-lg bg-white px-3 py-4 rounded shadow">
+          <div class="hstack gap-3 align-items-center mb-2">
+            <i class="bi bi-palette service-icon"></i>
+            <h4 class="mb-0">Desain Grafis</h4>
+          </div>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quia dignissimos velit
+            itaque! Quisquam,
+            fuga!</p>
+        </div>
+        <div class="col-lg bg-white px-3 py-4 rounded shadow">
+          <div class="hstack gap-3 align-items-center mb-2">
+            <i class="bi bi-display service-icon"></i>
+            <h4 class="mb-0">Desain UI/UX</h4>
+          </div>
+          <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius hic qui laboriosam
+            architecto?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of LAYANAN -->
+
+  <!-- PROJEK -->
+  <section id="project" class="section-project section-padding">
+    <div class="container">
+      <h2 class="section-title text-center">Projek</h2>
+      <p class="text-center mb-5">Berikut adalah project-project yang sudah kami kerjakan.</p>
+      <div class="row row-gap-4 mx-4 justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/800" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/810" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/820" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/830" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/840" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/850" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="https://picsum.photos/860" alt="project photo" class="img-fluid rounded w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of PROJEK -->
+
+  <!-- TENTANG -->
+  <section id="about" class="section-about section-padding bg-body-tertiary">
+    <div class="container text-center">
+      <h2 class="section-title text-center mb-3">Tentang</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint maiores eaque totam laudantium voluptate
+        pariatur a porro eos. Enim sit ipsam iure officia facilis porro velit et delectus consectetur nihil.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nam consectetur ullam ad modi optio
+        tempore repudiandae odio at vero! Enim beatae, excepturi vero eos possimus, quis ducimus sit voluptas itaque
+        labore eligendi, expedita doloribus maiores saepe et alias. Laboriosam?</p>
+    </div>
+  </section>
+  <!-- End of TENTANG -->
+
+  <!-- KONTAK -->
+  <section id="contact" class="section-contact section-padding text-bg-danger">
+    <div class="container">
+      <h2 class="text-center section-title-dark mb-5">Selengkapnya Tentang Saya</h2>
+      <div class="row justify-content-center row-gap-3">
+        <div class="col-lg col-md-4 col-sm-6 col-7 d-lg-flex justify-content-center">
+          <div class="hstack gap-3">
+            <i class="bi bi-whatsapp contact-icon"></i>
+            <div class="vstack">
+              <h5 class="mb-0">Whatsapp</h5>
+              <p class="mb-0">+62 896 0428 2050</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-4 col-sm-6 col-7 d-lg-flex justify-content-center">
+          <div class="hstack gap-3">
+            <i class="bi bi-facebook contact-icon"></i>
+            <div class="vstack">
+              <h5 class="mb-0">Facebook</h5>
+              <p class="mb-0">Hazmy Haykal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-4 col-sm-6 col-7 d-lg-flex justify-content-center">
+          <div class="hstack gap-3">
+            <i class="bi bi-instagram contact-icon"></i>
+            <div class="vstack">
+              <h5 class="mb-0">Instagram</h5>
+              <p class="mb-0">@hazmy.haykal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-4 col-sm-6 col-7 d-lg-flex justify-content-center">
+          <div class="hstack gap-3">
+            <i class="bi bi-github contact-icon"></i>
+            <div class="vstack">
+              <h5 class="mb-0">Github</h5>
+              <p class="mb-0">Hazzmee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of KONTAK -->
+
+  <!-- FOOTER -->
+  <footer class="text-bg-dark text-center py-2">
+    <p class="mb-0">Made with <i class="bi bi-heart-fill text-danger"></i> by <strong>Hazzmee</strong>.</p>
+  </footer>
+  <!-- End of FOOTER -->
+
+  <!-- Bootstrap Javascript -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+.section-padding {
+  padding: 84px 0;
+}
+
+.section-title {
+  font-weight: 500;
+
+  &::after {
+    content: ".";
+    color: #dc3545;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 4px;
+  }
+}
+
+.section-title-dark {
+  font-weight: 500;
+
+  &::after {
+    content: ".";
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 4px;
+  }
+}
+
+.service-icon {
+  font-size: 32px;
+  color: #dc3545;
+}
+
+.contact-icon {
+  font-size: 32px;
+}
